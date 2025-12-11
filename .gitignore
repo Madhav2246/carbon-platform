@@ -1,0 +1,4 @@
+gcloud-key.json
+.env
+*.key
+*.json
