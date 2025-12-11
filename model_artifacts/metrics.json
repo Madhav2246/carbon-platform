@@ -1,0 +1,20 @@
+{
+  "model_type": "RandomForestRegressor",
+  "training_timestamp": "2025-11-29T13:53:15.531519",
+  "total_training_samples": 1200,
+  "train_test_split": "80-10-10",
+  "metrics": {
+    "test_mae": 29.02,
+    "test_rmse": 42.39,
+    "test_r2": 0.9793,
+    "train_r2": 0.9961,
+    "val_r2": 0.9824
+  },
+  "feature_importance": {
+    "electricity_kwh": 0.7638,
+    "gas_therms": 0.1781,
+    "distance_km": 0.0192,
+    "vehicle_type": 0.0187,
+    "shopping_carbon_kg": 0.0202
+  }
+}
